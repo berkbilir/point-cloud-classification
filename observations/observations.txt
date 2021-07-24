@@ -1,0 +1,10 @@
+Accuracy for task1: %84.13 
+Accuracy for task2: %81.01
+Accuracy for task3: %79.33
+
+I ran 100 epochs for task 1 and 2 and 80 epochs for task3.
+
+I achieved the highest accuracy with the point cloud representation. Voxel representation came second which I was expecting since they lose resolution compared to point clouds. On the other hand point clouds with spectral embbedings came last. I was expecting this model to perform better than the task1 but it did not happen. Performance wise, task3 took considerably more time than task1 and task2 on my machine.
+
+
+** I used open3d version 0.12.0
